@@ -1,0 +1,9 @@
+src
+__tests__
+.env
+node_modules
+*.log
+.DS_Store
+docker-compose.override.yml
+docker-compose.yml
+Dockerfile
