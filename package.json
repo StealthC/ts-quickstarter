@@ -10,6 +10,7 @@
     "@types/node": "^16.11.9",
     "@typescript-eslint/eslint-plugin": "^5.4.0",
     "@typescript-eslint/parser": "^5.4.0",
+    "dot-env": "^0.0.1",
     "dotenv": "^10.0.0",
     "eslint": "^8.3.0",
     "eslint-config-prettier": "^8.3.0",
@@ -29,5 +30,8 @@
     "lint": "eslint --fix --ext .js,.ts,.json .",
     "test": "jest"
   },
-  "dependencies": {}
+  "dependencies": {
+    "axios": "^0.24.0",
+    "widevine-ts-cdm": "1.0.0"
+  }
 }
